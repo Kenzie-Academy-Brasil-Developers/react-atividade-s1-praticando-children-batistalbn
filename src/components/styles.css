@@ -1,0 +1,48 @@
+.onePiece {
+  background-image: url("../images/onePiece.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 10px;
+  padding: 0 20px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: blue;
+}
+.golgo13 {
+  background-image: url("../images/golgo13.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 10px;
+  padding: 0 20px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: blue;
+}
+.dragonBall {
+  background-image: url("../images/dragon-ball-z.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 10px;
+  padding: 0 20px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: blue;
+}
+
+@media screen and (min-width: 800px) {
+  .onePiece {
+    width: 500px;
+  }
+  .golgo13 {
+    width: 500px;
+  }
+  .dragonBall {
+    width: 500px;
+  }
+}
